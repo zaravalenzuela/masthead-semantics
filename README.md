@@ -12,6 +12,7 @@ deliverables: '1 HTML file, images'
 - All the content is provided in the `content.txt` file.
 - The images are provided in the `images` folder.
 - **Create an `index.html` and write the semantically appropriate tags for the content.**
+- **Don’t forget to copy-and-paste the HTML boilerplate code, `<!DOCTYPE html>`, `<html>`, `<head>`, `<meta>`, etc. (Refer to the “HTML document setup” for the reference.)**
 - Remember to do regular commits.
 - *Run it through Markbot and make sure it passes all the checks.*
 

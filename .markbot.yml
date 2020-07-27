@@ -1,5 +1,5 @@
 repo: "masthead-semantics"
-canvasCourse: "web-dev-1"
+canvasCourse: "web-design-1"
 
 inherit:
   - naming-restrict-live
@@ -10,25 +10,25 @@ html:
   - path: "index.html"
     has:
       - "header"
-      - check: 'header img'
-        message: 'There is no `<img>` tag inside a `<header>` tag'
-      - check: 'header h1'
-        message: 'There is no `<h1>` tag inside a `<header>` tag'
-      - check: 'header nav'
-        message: 'There is no `<nav>` tag inside a `<header>` tag'
-      - check: 'header nav ul'
-        message: 'There is no `<ul>` tag inside a `<nav>` tag, inside a `<header>` tag'
+      - check: "header img"
+        message: "There is no `<img>` tag inside a `<header>` tag"
+      - check: "header h1"
+        message: "There is no `<h1>` tag inside a `<header>` tag"
+      - check: "header nav"
+        message: "There is no `<nav>` tag inside a `<header>` tag"
+      - check: "header nav ul"
+        message: "There is no `<ul>` tag inside a `<nav>` tag, inside a `<header>` tag"
       - "header nav ul li"
       - check: "header nav ul li a"
-        message: 'There is no `<a>` tag inside the navigation list in the `<header>` tag'
+        message: "There is no `<a>` tag inside the navigation list in the `<header>` tag"
       - "figure"
-      - check: 'figure img'
-        message: 'There is no `<img>` tag inside the `<figure>` tag'
-      - check: 'figure figcaption'
-        message: 'There is no `<figcaption>` tag inside the `<figure>` tag'
+      - check: "figure img"
+        message: "There is no `<img>` tag inside the `<figure>` tag"
+      - check: "figure figcaption"
+        message: "There is no `<figcaption>` tag inside the `<figure>` tag"
       - "main"
-      - check: 'main p'
-        message: 'There is no `<p>` tag inside a `<main>` tag'
+      - check: "main p"
+        message: "There is no `<p>` tag inside a `<main>` tag"
     search:
       - "The Solar System"
       - "Stars"
